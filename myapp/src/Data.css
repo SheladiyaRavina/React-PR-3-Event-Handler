@@ -1,0 +1,80 @@
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.card{
+    width: 320px;
+    height: 450px;
+    font-size: 20px;
+    float: left;
+    margin: 30px;
+    margin-top: 60px;
+    background-color:#faf7f2;
+    border-radius: 3%;
+}
+.slider{
+    /* background-image: url('https://themeholy.com/wordpress/pizzan/wp-content/uploads/2023/06/logo-white.svg'); */
+}
+
+body{
+    background-image: url('https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2019/12/Indian-But-Not-Indian-Food-feature.jpg?tr=w-1920');
+    background-color: rgba(0, 0, 0, 0.841);
+    background-blend-mode: darken;
+}
+img{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    animation: spin 60s linear infinite;
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+button{
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    background-color: rgb(253, 0, 0);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: poppins;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(247, 7, 7);
+    border: 1px solid;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(231, 13, 13);
+    color: aliceblue;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.btn:hover{
+    background-color: rgb(16, 16, 17);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.price{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: poppins;
+    color: rgb(20, 20, 20);
+}
+.name{
+    margin-top: 20px;
+    font-size: 16px;
+    word-spacing: 2px;
+    font-family: poppins;
+    color: rgb(6, 6, 6);
+}
